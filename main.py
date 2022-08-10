@@ -28,7 +28,7 @@ async def quiz_handler(message: types.Message):
         is_anonymous=False,
         type='quiz',
         correct_option_id=1,
-        explanation="Бог Шиноби",
+        explanation="король пиратов",
         explanation_parse_mode=ParseMode.MARKDOWN_V2,
         reply_markup=markup
     )
